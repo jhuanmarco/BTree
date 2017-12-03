@@ -140,9 +140,7 @@ void insere(PAGINA **root){
 	}
 	
 	insereChave(root, info);
-
-	
-
+	printf("\n\nNodo Inserido Com Sucesso\n\n");
 }
 
 
@@ -187,6 +185,7 @@ void main(){
 					printf("B-Tree Ainda Nao Criada\n\n");
 					break;
 				}
+				printf("\n\nArvore Deletada\n\n");
 				root = NULL;
 				break;	
 		}
